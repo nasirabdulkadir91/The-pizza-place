@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon|Mogra&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/Pizza\ Express\ –\ Glossop\ _\ Quadrant\ Design.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    background-color: #DADADA;
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F18C41;
+    border-radius: 25px;
+}
+
+.cover {
+    height: auto;
+    background-color: rgba(0, 0, 0, .7)
+}
+
+#header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-family: 'Lemon', cursive;
+}
+
+.carousel{
+    height:50vh;
+}
+.img-carousel{
+    background-size: cover;
+    height:60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img-3 {
+   background-image: url('../img/h3.jpeg');
+}
+
+#img-2 {
+    background-image: url('../img/h2.jpeg');
+}
+
+#img-1 {
+    background-image: url('../img/h1.jpeg');
+}
+
+#img-4 {
+    background-image: url('../img/h4.jpeg');
+}
+
+.carousel-caption h5 {
+    color: #F18C41;
+    font-size: 40px
+}
+
+.cafe-desc {
+    height: 30vh;
+    font-family: 'Mogra', cursive;
+    color: #F17A29;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Big-Mark .card-img-top {
+    background-image: url(../img/pizza2.jpg)
+}
+
+#Cheese-Love .card-img-top {
+    background-image: url(../img/pizza3.jpg)
+}
+
+#Pepperoni-Craze .card-img-top {
+    background-image: url(../img/pizza4.jpg)
+}
+
+#Napoletana .card-img-top {
+    background-image: url(../img/pizza1.jpg)
+}
+
+#Diavola .card-img-top {
+    background-image: url(../img/pizza5.jpeg);
+}
+
+#Frutti-D\'Mare .card-img-top{
+ background-image: url(../img/pizza6.jpg);
+
+}
+.price-display,
+.card-title {
+    display: inline-block;
+}
+.price-display {
+    float: right;
+}
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+.order-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart {
+    position: fixed;
+    left: -10px;
+    top: 5%;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.cart button {
+    background-color: #F18C41;
+    border: #F17A29;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, .4);
+    padding: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.animate {
+    animation: animatezoom .6s;
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    
+    to {
+        transform: sclae(1)
+    }
+}
+
+/*<------- Summary styling in Modal----> */
+#summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+#summary div {
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+}
+#summary p {
+    margin: 0;
+    font-size: 15px;
+}
+#summary hr {
+    width: 80%;
+}
+.hidden {
+    display: none;
+}
+.checkout-btn {
+    display: block;
+    margin: auto;
+    background-color: #F18C41;
+}
+#alert {
+    position: fixed;
+    top: 20%;
+    z-index: 50;
+    left: 0;
+}
+footer {
+    background: rgb(235, 110, 27);
+    padding: 50px 0 0;
+}
+.sci {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sci li {
+    list-style: none;
+    margin: 0 20px;
+}
+.sci li a {
+    color: #777;
+    font-size: 2em;
+    transition: 0.5s;
+}
+.sci li a:hover {
+    color: #fff;
+}
+.cpryt {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
+.cpryt a,
+.cpryt:hover {
+    color: #fff;
+}
