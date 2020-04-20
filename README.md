@@ -21,5 +21,5 @@ Should you find difficulties accessing my web page, find hard reading my codes a
 ## To-do
 1. Validation of email addresses entered
 
-## [License](https://github.com/nasirabdulkadir91/Delani_studio_site/blob/gh-pages/LICENCE.md)
+## [License](https://github.com/nasirabdulkadir91/The-pizza-place/blob/master/LICENCE.md)
 MIT (c) 2020 [Abdinassir Abdulkadir](https://github.com/nasirabdulkadir91)
