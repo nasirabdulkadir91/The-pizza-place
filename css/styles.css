@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #F18C41;
+    background-color:tomato;
     border-radius: 25px;
 }
 
@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: brown;
+    color:tomato;
     font-family: 'Lemon', cursive;
 }
 
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #img-1 {
-    background-image: url('../img/h1.jpeg');
+    background-image: url('../img/h3.jpeg');
 }
 
 #img-4 {
@@ -62,14 +62,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .carousel-caption h5 {
-    color: #F18C41;
+    color: tomato;
     font-size: 40px
 }
 
 .cafe-desc {
     height: 30vh;
     font-family: 'Mogra', cursive;
-    color: #F17A29;
+    color:tomato;
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -145,8 +145,8 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 .cart button {
-    background-color: #F18C41;
-    border: #F17A29;
+    background-color: teal;
+    border: teal;
 }
 .modal {
     display: none;
@@ -218,7 +218,7 @@ body::-webkit-scrollbar-thumb {
 .checkout-btn {
     display: block;
     margin: auto;
-    background-color: #F18C41;
+    background-color:tomato;
 }
 #alert {
     position: fixed;
@@ -227,9 +227,10 @@ body::-webkit-scrollbar-thumb {
     left: 0;
 }
 footer {
-    background: rgb(235, 110, 27);
+    background: tomato;
     padding: 50px 0 0;
-}
+} 
+
 .sci {
     margin: 0;
     padding: 0;
@@ -251,8 +252,9 @@ footer {
 }
 .cpryt {
     text-align: center;
-    color: #777;
+    color: black;
     margin-top: 20px;
+    font: bold;
 }
 .cpryt a,
 .cpryt:hover {
